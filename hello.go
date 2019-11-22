@@ -10,5 +10,5 @@ type Module struct {
 
 // Print prints something
 func (m *Module) Print() {
-	fmt.Println("Print", x)
+	fmt.Println("Print", m)
 }
