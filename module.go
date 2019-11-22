@@ -6,6 +6,7 @@ import (
 
 type Person struct {
 	FirstName string
+	LastName  string
 }
 
 // Print prints something
