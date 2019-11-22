@@ -4,11 +4,12 @@ import (
 	"fmt"
 )
 
-type Module struct {
-	Name string
+type Person struct {
+	FirstName string
+	LastName  string
 }
 
 // Print prints something
-func (m *Module) Print() {
-	fmt.Println("Print", m)
+func (m *Person) Print() {
+	fmt.Println("Person", m)
 }
