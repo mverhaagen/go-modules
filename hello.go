@@ -4,9 +4,11 @@ import (
 	"fmt"
 )
 
-type Module struct{}
+type Module struct {
+	Name string
+}
 
 // Print prints something
 func (m *Module) Print() {
-	fmt.Println("I'm Here")
+	fmt.Println("Print", x)
 }
